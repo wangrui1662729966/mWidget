@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GridEditView">
+        <attr name="text_color" format="color"/>
+        <attr name="text_size" format="dimension"/>
+
+        <attr name="solid_color" format="color"/>
+        <attr name="solid_width" format="dimension"/>
+        <attr name="solid_height" format="dimension"/>
+        <attr name="sideline_width" format="dimension"/>
+        <attr name="sideline_radius" format="dimension"/>
+        <attr name="sideline_fill_color" format="color"/>
+        <attr name="sideline_empty_color" format="color"/>
+
+        <attr name="bottom_line_width" format="dimension"/>
+        <attr name="bottom_line_margin" format="dimension"/>
+        <attr name="bottom_line_fill_color" format="color"/>
+        <attr name="bottom_line_empty_color" format="color"/>
+
+        <attr name="box_fill_background" format="reference"/>
+        <attr name="box_empty_background" format="reference"/>
+
+        <attr name="max_length" format="integer"/>
+
+        <attr name="style" format="enum">
+            <enum name="EdgeFrame" value="0"/>
+            <enum name="BelowLine" value="1"/>
+            <enum name="Background" value="2"/>
+        </attr>
+
+        <attr name="type" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="encrypt" value="1"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
